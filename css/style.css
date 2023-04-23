@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: content-box;
+ text-decoration: none;
+}
+.logo-9z{
+    width: 100px;
+    height: 100px;
+    row-gap: 40px;
+    display: flex;
+}
+.formulario1{
+    font-size: 40px;
+}
+
+header{
+    background-color: rgb(195,195,195);
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 40px;
+
+}
+main { 
+    background-color:rgb(126, 65, 179);
+    font-size: 25px;
+}
+.titulo{
+    font-family: 'Abel';
+   font-weight: normal;
+}
+.sub-titulo{
+    font-family: 'Roboto Condensed';
+    font-weight: normal;
+}
+footer{
+    background-color: rgb(51, 51, 51 );
+    font-size: 30px;
+    font-family: 'Roboto Condensed';
+}
+
+.nombres-jugadores{
+ font-family: 'Abel', sans-serif;
+ font-weight: bold;
+ font-style: italic;
+ text-align: left;
+ font-size: 50px;
+}
+.lista-torneos{
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+
+
+nav{
+    text-align: center;
+    
+}
+
+.franco{
+    width: 70px;
+    height: 70px;
+}
+.Maximiliano{
+    width: 70px;
+    height: 70px;
+}
+.david{
+    width: 70px;
+    height: 70px;
+}
+.nicolas{
+    width: 70px;
+    height: 70px;
+}
+.santino{
+    width: 70px;
+    height: 70px;
+}
+.chile{
+    width: 70px;
+    height: 60px;
+}
+.uru{
+    width: 70px;
+    height: 60px;
+}
+.arg{
+    width: 70px;
+    height: 60px;
+}
+.intel{
+    width: 40px;
+    height: 40px;
+}
+.fire{
+    width: 40px;
+height: 40px;
+} 
+
+.img{
+    width: 40px;
+    height: 40px;
+}
+.br{
+    width: 40px;
+    height: 30px;
+}
+
+.torneos-9z{
+    width: 900px;
+    border: 10px solid rgb(172, 3, 158);
+    padding: 0px;
+    margin: 10px;
+    height: 600px;
+}
+.coachs{
+    width: 70px;
+    height: 70px;
+}
+.ol1{
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    font-size: 50px;
+}
+.links{
+    color: rgb(rgb(2, 0, 0), green, blue);
+}
+.despedida-zakk{
+    width: 900px;
+    border: 10px solid rgb(94, 1, 86);
+    padding: 0px;
+    margin: 10px;
+    height: 600px;
+}
+.hellpa{
+    width: 900px;
+    border: 10px solid rgb(94, 1, 86);
+    padding: 0px;
+    margin: 10px;
+    height: 600px;
+}
