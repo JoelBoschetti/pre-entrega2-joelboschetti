@@ -13,6 +13,9 @@
     #palabras-pequeñas{
         font-size: 15px;
     }
+    #palabras-medianas{
+        font-size: 25px;
+    }
     #letras-nav{
         text-align: center;
         font-family: 'Roboto Condensed';
@@ -48,7 +51,7 @@
         height: 30px;
     }
     #arg{
-        width: 35px;
+        width: 40px;
         height: 30px ;
     }
     .intel{
@@ -69,18 +72,21 @@
         height: 15px;
     }
     #videos { 
-        width: 100%;
-        border: 5px solid rgb(172, 3, 158);
+        width: 90%;
+        
         padding: 0px;
         margin: 10px;
         height: 200px;
+        
+        justify-content: center;
     }
     .torneos-9z{
-        width: 100%;
-        border: 5px solid rgb(172, 3, 158);
+        width: 90%;
+       
         padding: 0px;
         margin: 10px;
         height: 200px;
+       
     }
     .coachs{
         width: 35px;
@@ -97,14 +103,14 @@
     }
     .despedida-zakk{
         width: 450px;
-        border: 5px solid rgb(94, 1, 86);
+    
         padding: 0px;
         margin: 5px;
         height: 300px;
     }
     .hellpa{
         width: 450px;
-        border: 5px solid rgb(94, 1, 86);
+      
         padding: 0px;
         margin: 5px;
         height: 300px;
@@ -180,23 +186,23 @@ footer{
 
 .franco{
     width: 70px;
-    height: 70px;
+    height: 60px;
 }
 .Maximiliano{
     width: 70px;
-    height: 70px;
+    height: 60px;
 }
 .david{
     width: 70px;
-    height: 70px;
+    height: 60px;
 }
 .nicolas{
     width: 70px;
-    height: 70px;
+    height: 60px;
 }
 .santino{
     width: 70px;
-    height: 70px;
+    height: 60px;
 }
 .chile{
     width: 70px;
@@ -230,7 +236,7 @@ height: 40px;
 
 .torneos-9z{
     width: 900px;
-    border: 10px solid rgb(172, 3, 158);
+    
     padding: 0px;
     margin: 10px;
     height: 600px;
@@ -251,14 +257,14 @@ height: 40px;
 }
 .despedida-zakk{
     width: 900px;
-    border: 10px solid rgb(94, 1, 86);
+  
     padding: 0px;
     margin: 10px;
     height: 600px;
 }
 .hellpa{
     width: 900px;
-    border: 10px solid rgb(94, 1, 86);
+    
     padding: 0px;
     margin: 10px;
     height: 600px;
