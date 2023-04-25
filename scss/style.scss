@@ -1,14 +1,9 @@
 // variables
 
-$color-primary: #FF0000;
 
 
 h1{
-    
     color: $color-primary;
-}
-p{
-    background-color: azure;
 }
 nav{
 
@@ -17,11 +12,11 @@ nav{
     ul{
     list-style: none;
      li{
-        color: blue($color: #000000);
+        color: blue;
     
     // aca vamos a usar un nuevo selector
     &:hover{
-
+          color: red;
         }
         }   
 }
