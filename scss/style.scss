@@ -1,0 +1,22 @@
+h1{
+    color: red($color: #000000);
+}
+p{
+    background-color: azure;
+}
+nav{
+
+
+
+    ul{
+    list-style: none;
+     li{
+        color: blue($color: #000000);
+    
+    // aca vamos a usar un nuevo selector
+    &:hover{
+
+        }
+        }   
+}
+}
