@@ -1,5 +1,11 @@
+// variables
+
+$color-primary: #FF0000;
+
+
 h1{
-    color: red($color: #000000);
+    
+    color: $color-primary;
 }
 p{
     background-color: azure;
