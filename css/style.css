@@ -1,16 +1,17 @@
-h1 {
-  color: #FF0000;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 6 |     color: $color-primary;
+ *   |            ^^^^^^^^^^^^^^
+ *   '
+ *   scss\style.scss 6:12  root stylesheet */
 
-p {
-  background-color: azure;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 6 \2502      color: $color-primary;\d\a   \2502             ^^^^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 6:12  root stylesheet";
 }
-
-nav ul {
-  list-style: none;
-}
-nav ul li {
-  color: 0;
-}
-
-/*# sourceMappingURL=style.css.map */
