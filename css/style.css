@@ -6,10 +6,27 @@
  padding: 0;
  box-sizing: content-box;
  text-decoration: none;
-
+ 
 }
 @media (max-width: 480px) {
- 
+    .bordes{
+        border: 1px solid  black;
+        
+    }
+    .container{
+        display: grid;
+        /* vh(alto del viewport) y vw(ancho del viewport) */
+        height: 100vh;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns:15% 1fr 20% ;
+
+         /* grid-template-areas= ordenar el sitio por areas */
+        grid-template-areas:
+        "nav header header "
+        "nav productos aside"
+        "nav servicios aside"
+        "nav footer footer"
+    }
     #palabras-pequeñas{
         font-size: 15px;
     }
@@ -275,3 +292,19 @@ height: 40px;
     gap: 850px;
 }
 
+.container-galeria{
+    display: grid;
+  grid-template-rows: repeat(5,20%);
+  grid-template-columns: repeat(4, 25%);
+}
+
+.header{
+    grid-area: headers;
+}
+.imgs{
+    width: 15%;
+    height: 15%;
+}
+.img-1{
+    grid-column: 1/3;
+}
