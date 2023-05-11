@@ -1,15 +1,285 @@
-h1 {
-  color: red;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-nav ul {
+@media (max-width: 480px) {
+  #ol1 {
+    margin-bottom: 0;
+    font-size: 50%;
+    padding: 0;
+  }
+  #palabras-pequeñas {
+    font-size: 15px;
+  }
+  nav {
+    text-align: center;
+  }
+  .franco, .santino, .nicolas, .david, .Maximiliano {
+    width: 35px;
+    height: 35px;
+  }
+  .Maximiliano {
+    width: 35px;
+    height: 35px;
+  }
+  .david {
+    width: 35px;
+    height: 35px;
+  }
+  .nicolas {
+    width: 35px;
+    height: 35px;
+  }
+  .santino {
+    width: 35px;
+    height: 35px;
+  }
+  .chile, .arg, .uru {
+    width: 35px;
+    height: 30px;
+  }
+  .uru {
+    width: 35px;
+    height: 30px;
+  }
+  #arg {
+    width: 35px;
+    height: 30px;
+  }
+  .intel, .fire {
+    width: 20px;
+    height: 20px;
+  }
+  .fire {
+    width: 20px;
+    height: 20px;
+  }
+  #imagenes {
+    width: 20px;
+    height: 20px;
+  }
+  .br {
+    width: 20px;
+    height: 15px;
+  }
+  #videos {
+    width: 100%;
+    border: 5px solid rgb(172, 3, 158);
+    padding: 0px;
+    height: 200px;
+  }
+  .torneos-9z, .hellpa, .despedida-zakk {
+    width: 100%;
+    border: 5px solid rgb(172, 3, 158);
+    padding: 0px;
+    height: 200px;
+  }
+  .coachs {
+    width: 50%;
+    height: 50%;
+  }
+  .ol1 {
+    font-family: "Abel", sans-serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: 15px !important;
+  }
+  main {
+    font-size: 100%;
+  }
+  header {
+    font-size: 100%;
+  }
+  footer {
+    font-size: 100%;
+  }
+  .links {
+    color: black;
+  }
+  .despedida-zakk {
+    width: 450px;
+    border: 5px solid rgb(172, 3, 158);
+    padding: 0px;
+    height: 300px;
+  }
+  .hellpa {
+    width: 450px;
+    border: 5px solid rgb(172, 3, 158);
+    padding: 0px;
+    height: 300px;
+  }
+  .redes {
+    display: flex;
+    list-style: none;
+    gap: 165px !important;
+  }
+  .Copyright {
+    font-size: 20px;
+  }
+  .formulario1 {
+    font-size: 100%;
+    size: 100%;
+  }
+  .boton {
+    font-size: 100%;
+    font-family: "Roboto Condensed";
+    border-radius: 20px;
+    border: 20px;
+    width: 50%;
+    height: 50%;
+    border-color: white;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+  }
+  .botones {
+    list-style: none;
+    display: flex;
+  }
+  iframe {
+    width: 100%;
+  }
+  #nombres-jugadores {
+    font-family: "Abel", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    font-size: 100%;
+  }
+}
+.logo-9z {
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+
+.formulario1 {
+  font-size: 40px;
+}
+
+header {
+  background-color: rgb(195, 195, 195);
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  font-size: 40px;
+}
+
+main {
+  background-color: rgb(126, 65, 179);
+  font-size: 25px;
+}
+
+.titulo {
+  font-family: "Abel";
+  font-weight: bolder;
+}
+
+.sub-titulo {
+  font-family: "Roboto Condensed";
+  font-weight: normal;
+}
+
+footer {
+  background-color: rgb(51, 51, 51);
+  font-size: 30px;
+  font-family: "Roboto Condensed";
+}
+
+.nombres-jugadores {
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  font-size: 50px;
+}
+
+.lista-torneos {
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+}
+
+nav {
+  text-align: center;
+}
+
+.franco, .santino, .nicolas, .david, .Maximiliano {
+  width: 70px;
+  height: 70px;
+}
+
+.chile, .arg, .uru {
+  width: 70px;
+  height: 60px;
+}
+
+.intel, .fire {
+  width: 40px;
+  height: 40px;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+}
+
+.br {
+  width: 40px;
+  height: 30px;
+}
+
+.torneos-9z, .hellpa, .despedida-zakk {
+  width: 900px;
+  border: 10px solid rgb(172, 3, 158);
+  padding: 0px;
+  height: 600px;
+}
+
+.coachs {
+  width: 70px;
+  height: 70px;
+}
+
+.ol1 {
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  font-size: 50px;
+}
+
+.links {
+  color: black;
+}
+
+.redes {
+  display: flex;
   list-style: none;
+  gap: 850px;
 }
-nav ul li {
-  color: blue;
+
+.boton {
+  font-size: 50%;
+  font-family: "Roboto Condensed";
+  border-radius: 20px;
+  width: 50%;
+  height: 50%;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
 }
-nav ul li:hover {
-  color: red;
+
+.botones {
+  list-style: none;
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
