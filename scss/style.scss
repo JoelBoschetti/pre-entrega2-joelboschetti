@@ -70,14 +70,14 @@
     }
     #videos { 
         width: 100%;
-        border: 5px solid rgb(172, 3, 158);
+        border: 5px solid $color-primary;
         padding: 0px;
         
         height: 200px;
     }
     .torneos-9z{
         width: 100%;
-        border: 5px solid rgb(172, 3, 158);
+        border: 5px solid $color-primary;
         padding: 0px;
         
         height: 200px;
@@ -107,14 +107,14 @@
     }
     .despedida-zakk{
         width: 450px;
-        border: 5px solid rgb(172, 3, 158);
+        border: 5px solid $color-primary;
         padding: 0px;
        
         height: 300px;
     }
     .hellpa{
         width: 450px;
-        border: 5px solid rgb(172, 3, 158);
+        border: 5px solid $color-primary;
         padding: 0px;
         
         height: 300px;
@@ -135,10 +135,9 @@
     font-size: 100%;
     font-family: 'Roboto Condensed';
     border-radius: 20px;
-    border: 20px;
     width: 50%;
     height: 50%;
-    border-color: white;
+    border-color: $color-primary;
     color: white;
     background-color: black;
     display: flex;
@@ -173,7 +172,7 @@ iframe{
 }
 
 header{
-    background-color: rgb(195,195,195);
+    background-color: $color-header;
     font-family: 'Roboto Condensed';
     font-weight: bold;
     font-size: 40px;
@@ -181,7 +180,7 @@ header{
 
 }
 main { 
-    background-color:rgb(126, 65, 179);
+    background-color: $color-background;
     font-size: 25px;
    
 }
@@ -194,7 +193,7 @@ main {
     font-weight: normal;
 }
 footer{
-    background-color: rgb(51, 51, 51 ) ;
+    background-color: $color-footer;
     font-size: 30px;
     font-family: 'Roboto Condensed';
 }
@@ -266,7 +265,7 @@ nav{
 
 .torneos-9z{
     width: 900px;
-    border: 10px solid rgb(172, 3, 158);
+    border: 10px solid $color-primary;
     padding: 0px;
     height: 600px;
 }
@@ -300,15 +299,18 @@ nav{
     font-size: 50%;
     font-family: 'Roboto Condensed';
     border-radius: 20px;
-    width: 50%;
-    height: 50%;
-
+    width: 25%;
+    height: 25%;
+    list-style: none;
     color: white;
     background-color: black;
     display: flex;
     justify-content: space-around;
 }
-.botones{
+#botones{
     list-style: none;
     display: flex;
+}
+#area-texto{
+    line-height: inherit
 }
