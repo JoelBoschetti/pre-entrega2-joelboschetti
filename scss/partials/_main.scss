@@ -89,13 +89,13 @@ main {
         @extend .intel
     } 
   }
-  .ol1{
+  #ol1{
     font-family: 'Abel', sans-serif;
     font-weight: bold;
     font-style: italic;
     text-align: left;
     font-size: 50px;
-
+    margin-bottom: 0 !important; 
     .coachs{
         width: 70px;
         height: 70px;

@@ -1,8 +1,9 @@
 @media (max-width: 480px) {
     #ol1{
-        margin-bottom: 0; 
-        font-size: 50%;
+       
+        font-size: 12px !important  ;
         padding: 0;
+
       }
     #palabras-pequeñas{
         font-size: 15px;
@@ -66,12 +67,8 @@
         width: 50%;
         height: 50%;
     }
-    .ol1{
-        font-family: 'Abel', sans-serif;
-        font-weight: bold;
-        text-align: left;
-        font-size: 15px !important;
-    }
+   
+    
     main{
     font-size: 100%;
     

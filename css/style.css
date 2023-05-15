@@ -106,14 +106,15 @@ main .lista-torneos .intel, main .lista-torneos .fire {
   width: 40px;
   height: 40px;
 }
-main .ol1 {
+main #ol1 {
   font-family: "Abel", sans-serif;
   font-weight: bold;
   font-style: italic;
   text-align: left;
   font-size: 50px;
+  margin-bottom: 0 !important;
 }
-main .ol1 .coachs {
+main #ol1 .coachs {
   width: 70px;
   height: 70px;
 }
@@ -126,8 +127,7 @@ main .torneos-9z, main .despedida-zakk, main .hellpa {
 
 @media (max-width: 480px) {
   #ol1 {
-    margin-bottom: 0;
-    font-size: 50%;
+    font-size: 12px !important;
     padding: 0;
   }
   #palabras-pequeñas {
@@ -183,12 +183,6 @@ main .torneos-9z, main .despedida-zakk, main .hellpa {
   .coachs {
     width: 50%;
     height: 50%;
-  }
-  .ol1 {
-    font-family: "Abel", sans-serif;
-    font-weight: bold;
-    text-align: left;
-    font-size: 15px !important;
   }
   main {
     font-size: 100%;
