@@ -1,0 +1,33 @@
+header{
+    background-color: map-get($colores,gris);
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 40px;
+    nav{
+        text-align: center;
+        
+    .logo-9z{
+        width: 100px;
+        height: 100px;
+      display: flex}
+      .animacion{
+      transition: background-color 0.8s;
+      transition: box-shadow 0,7s;
+     .animacion:hover{
+      background-color: rgb(143, 142, 142);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+      .animacion:hover{
+       opacity:1;
+         }
+       }
+     }  
+   }
+   
+    .torneos-9z{
+    width: 900px;
+    border: 10px solid $color-primary;
+    padding: 0px;
+    height: 600px;
+    }
+
+ }

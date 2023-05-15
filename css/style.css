@@ -7,6 +7,123 @@
   padding: 0;
 }
 
+header {
+  background-color: rgb(195, 195, 195);
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  font-size: 40px;
+}
+header nav {
+  text-align: center;
+}
+header nav .logo-9z {
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+header nav .animacion {
+  transition: background-color 0.8s;
+  transition: box-shadow 0, 7s;
+}
+header nav .animacion .animacion:hover {
+  background-color: rgb(143, 142, 142);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+header nav .animacion .animacion:hover .animacion:hover {
+  opacity: 1;
+}
+header .torneos-9z, header main .hellpa, main header .hellpa, header main .despedida-zakk, main header .despedida-zakk {
+  width: 900px;
+  border: 10px solid rgb(172, 3, 158);
+  padding: 0px;
+  height: 600px;
+}
+
+main {
+  background-color: rgb(126, 65, 179);
+  font-size: 25px;
+}
+main .formulario1 {
+  font-size: 40px;
+}
+main .formulario1 .titulo {
+  font-family: "Abel";
+  font-weight: bolder;
+}
+main .formulario1 .sub-titulo {
+  font-family: "Roboto Condensed";
+  font-weight: normal;
+}
+main .formulario1 .botones {
+  list-style: none;
+  display: flex;
+}
+main .formulario1 .botones #botones {
+  list-style: none;
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 0;
+}
+main .formulario1 .botones .boton {
+  font-size: 100%;
+  font-family: "Roboto Condensed";
+  border-radius: 20px;
+  width: 50%;
+  height: 50%;
+  border-color: rgb(172, 3, 158);
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+main #nombres-jugadores {
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  font-size: 25px;
+}
+main #nombres-jugadores .franco, main #nombres-jugadores .santino, main #nombres-jugadores .nicolas, main #nombres-jugadores .david, main #nombres-jugadores .Maximiliano {
+  width: 70px;
+  height: 70px;
+}
+main .chile, main .arg, main .uru {
+  width: 40px;
+  height: 30px;
+}
+main .br {
+  width: 40px;
+  height: 30px;
+}
+main .lista-torneos {
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+}
+main .lista-torneos .intel, main .lista-torneos .fire {
+  width: 40px;
+  height: 40px;
+}
+main .ol1 {
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  font-size: 50px;
+}
+main .ol1 .coachs {
+  width: 70px;
+  height: 70px;
+}
+main .torneos-9z, main .despedida-zakk, main .hellpa {
+  width: 900px;
+  border: 10px solid rgb(172, 3, 158);
+  padding: 0px;
+  height: 600px;
+}
+
 @media (max-width: 480px) {
   #ol1 {
     margin-bottom: 0;
@@ -19,27 +136,11 @@
   nav {
     text-align: center;
   }
-  .franco, .santino, .nicolas, .david, .Maximiliano {
-    width: 35px;
-    height: 35px;
+  .franco, main #nombres-jugadores .Maximiliano, main #nombres-jugadores .david, main #nombres-jugadores .nicolas, main #nombres-jugadores .santino {
+    width: 35px !important;
+    height: 35px !important;
   }
-  .Maximiliano {
-    width: 35px;
-    height: 35px;
-  }
-  .david {
-    width: 35px;
-    height: 35px;
-  }
-  .nicolas {
-    width: 35px;
-    height: 35px;
-  }
-  .santino {
-    width: 35px;
-    height: 35px;
-  }
-  .chile, .arg, .uru {
+  .chile, main .uru, main .arg {
     width: 35px;
     height: 30px;
   }
@@ -51,7 +152,7 @@
     width: 35px;
     height: 30px;
   }
-  .intel, .fire {
+  .intel, main .lista-torneos .fire {
     width: 20px;
     height: 20px;
   }
@@ -73,7 +174,7 @@
     padding: 0px;
     height: 200px;
   }
-  .torneos-9z, .hellpa, .despedida-zakk {
+  .torneos-9z, main .despedida-zakk, main .hellpa {
     width: 100%;
     border: 5px solid rgb(172, 3, 158);
     padding: 0px;
@@ -126,22 +227,6 @@
     font-size: 100%;
     size: 100%;
   }
-  .boton {
-    font-size: 100%;
-    font-family: "Roboto Condensed";
-    border-radius: 20px;
-    width: 50%;
-    height: 50%;
-    border-color: rgb(172, 3, 158);
-    color: white;
-    background-color: black;
-    display: flex;
-    justify-content: space-around;
-  }
-  .botones {
-    list-style: none;
-    display: flex;
-  }
   iframe {
     width: 100%;
   }
@@ -153,138 +238,21 @@
     font-size: 100%;
   }
 }
-.logo-9z {
-  width: 100px;
-  height: 100px;
-  display: flex;
-}
-
-.formulario1 {
-  font-size: 40px;
-}
-
-header {
-  background-color: rgb(195, 195, 195);
-  font-family: "Roboto Condensed";
-  font-weight: bold;
-  font-size: 40px;
-}
-
-main {
-  background-color: rgb(126, 65, 179);
-  font-size: 25px;
-}
-
-.titulo {
-  font-family: "Abel";
-  font-weight: bolder;
-}
-
-.sub-titulo {
-  font-family: "Roboto Condensed";
-  font-weight: normal;
-}
-
 footer {
   background-color: rgb(51, 51, 51);
   font-size: 30px;
   font-family: "Roboto Condensed";
   padding-bottom: 146px;
 }
-
-.nombres-jugadores {
-  font-family: "Abel", sans-serif;
-  font-weight: bold;
-  font-style: italic;
-  text-align: left;
-  font-size: 50px;
-}
-
-.lista-torneos {
-  font-family: "Abel", sans-serif;
-  font-weight: bold;
-  font-style: italic;
-  font-size: 30px;
-}
-
-nav {
-  text-align: center;
-}
-
-.franco, .santino, .nicolas, .david, .Maximiliano {
-  width: 70px;
-  height: 70px;
-}
-
-.chile, .arg, .uru {
-  width: 70px;
-  height: 60px;
-}
-
-.intel, .fire {
-  width: 40px;
-  height: 40px;
-}
-
-.img {
-  width: 50px;
-  height: 50px;
-}
-
-.br {
-  width: 40px;
-  height: 30px;
-}
-
-.torneos-9z, .hellpa, .despedida-zakk {
-  width: 900px;
-  border: 10px solid rgb(172, 3, 158);
-  padding: 0px;
-  height: 600px;
-}
-
-.coachs {
-  width: 70px;
-  height: 70px;
-}
-
-.ol1 {
-  font-family: "Abel", sans-serif;
-  font-weight: bold;
-  font-style: italic;
-  text-align: left;
-  font-size: 50px;
-}
-
-.links {
-  color: black;
-}
-
-.redes {
+footer .redes {
   display: flex;
   list-style: none;
+  padding-left: 400px;
   gap: 500px;
 }
-
-.boton {
-  font-size: 50%;
-  font-family: "Roboto Condensed";
-  border-radius: 20px;
-  width: 50%;
-  height: 50%;
-  list-style: none;
-  color: white;
-  background-color: black;
-  display: flex;
-  justify-content: space-around;
-}
-
-#botones {
-  list-style: none;
-  display: flex;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 0;
+footer .redes .img {
+  width: 50px;
+  height: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

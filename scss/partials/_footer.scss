@@ -1,0 +1,13 @@
+footer{
+    background-color: map-get($colores,negro ) ;
+    font-size: 30px;
+    font-family: 'Roboto Condensed';
+    padding-bottom: 146px;
+    .redes{
+        @include center-flex;
+        .img{
+            width: 50px;
+            height: 50px;
+        }
+      }
+}

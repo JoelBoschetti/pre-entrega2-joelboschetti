@@ -1,0 +1,129 @@
+@media (max-width: 480px) {
+    #ol1{
+        margin-bottom: 0; 
+        font-size: 50%;
+        padding: 0;
+      }
+    #palabras-pequeñas{
+        font-size: 15px;
+    }
+    nav{
+        text-align: center;
+        
+    }
+    
+    .franco{
+        width: 35px !important ; 
+        height: 35px !important;
+    }
+
+    
+   
+    .chile{
+        width: 35px;
+        height: 30px;
+    }
+    .uru{
+        width: 35px;
+        height: 30px;
+    }
+    #arg{
+        width: 35px;
+        height: 30px ;
+    }
+    .intel{
+        width: 20px;
+        height: 20px;
+    }
+    .fire{
+        width: 20px;
+    height: 20px;
+    } 
+    
+    #imagenes{
+        width: 20px;
+        height: 20px;
+    }
+    .br{
+        width: 20px;
+        height: 15px;
+    }
+    #videos { 
+        width: 100%;
+        border: 5px solid $color-primary;
+        padding: 0px;
+        
+        height: 200px;
+    }
+    .torneos-9z{
+        width: 100%;
+        border: 5px solid $color-primary;
+        padding: 0px;
+        
+        height: 200px;
+    }
+    .coachs{
+        width: 50%;
+        height: 50%;
+    }
+    .ol1{
+        font-family: 'Abel', sans-serif;
+        font-weight: bold;
+        text-align: left;
+        font-size: 15px !important;
+    }
+    main{
+    font-size: 100%;
+    
+    }
+    header{
+        font-size: 100%;
+    }
+    footer{
+        font-size: 100%;
+        padding-bottom: 0px !important; 
+    }
+    .links{
+        color: black;
+    }
+    .despedida-zakk{
+        width: 450px;
+        border: 5px solid $color-primary;
+        padding: 0px;
+       
+        height: 300px;
+    }
+    .hellpa{
+        width: 450px;
+        border: 5px solid $color-primary;
+        padding: 0px;
+        
+        height: 300px;
+    }
+    .redes{
+        display: flex;
+        list-style: none;
+        gap: 165px !important;
+    }
+    .Copyright{
+        font-size: 20px;
+    }
+.formulario1{
+    font-size: 100%;
+    size: 100%;
+}
+
+
+iframe{
+    width: 100%;
+}
+#nombres-jugadores{
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    font-size: 100%;
+   }
+ 
+ 
+}
