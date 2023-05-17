@@ -228,6 +228,9 @@ main .torneos-9z, main .despedida-zakk, main .hellpa {
     font-size: 100%;
     size: 100%;
   }
+  #area-texto {
+    columns: 15;
+  }
   iframe {
     width: 100%;
   }
