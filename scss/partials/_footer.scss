@@ -2,7 +2,8 @@ footer{
     background-color: map-get($colores,negro ) ;
     font-size: 30px;
     font-family: 'Roboto Condensed';
-    padding-bottom: 146px;
+    padding-bottom: 146px ;
+    margin-bottom: 0 !important;
     .redes{
         @include center-flex;
         .img{

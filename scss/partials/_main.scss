@@ -3,6 +3,9 @@ main {
     font-size: 25px;
     
     .formulario1{
+        .ul1{
+list-style: none;
+        }
     font-size: 40px;
     .titulo{
         font-family: 'Abel';
@@ -109,9 +112,13 @@ main {
         @extend .torneos-9z
      }
      .torneos-9z{
-        width: 900px;
+        width: 100%;
         border: 10px solid $color-primary;
         padding: 0px;
         height: 600px;
     }
+    .ul1{
+        margin-bottom: 0 !important;
+    }
+    
     }
