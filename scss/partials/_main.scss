@@ -1,127 +1,161 @@
-main { 
-    background-color: map-get($colores,violeta);
+main {
+    background-color: map-get($colores, violeta);
     font-size: 25px;
-    
-    .formulario1{
-        .ul1{
-      list-style: none;
+
+    .formulario1 {
+        .ul1 {
+            list-style: none;
         }
-    font-size: 40px;
-    .titulo{
-        font-family: 'Abel';
-       font-weight: bolder;
-    }
-    .sub-titulo{
-        font-family: 'Roboto Condensed';
-        font-weight: normal;
-     }
-    .botones{
-        list-style: none;
-        display: flex;
-        #botones{
+
+        font-size: 40px;
+
+        .titulo {
+            font-family: 'Abel';
+            font-weight: bolder;
+        }
+
+        .sub-titulo {
+            font-family: 'Roboto Condensed';
+            font-weight: normal;
+        }
+
+        .botones {
             list-style: none;
             display: flex;
-            padding-top: 25px;
-            padding-bottom: 25px;
-            padding-left: 0;
+
+            #botones {
+                list-style: none;
+                display: flex;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                padding-left: 0;
+            }
+
+            .boton {
+                font-size: 100%;
+                font-family: 'Roboto Condensed';
+                border-radius: 20px;
+                width: 50%;
+                height: 50%;
+                border-color: $color-primary;
+                color: white;
+                background-color: black;
+                display: flex;
+                justify-content: space-around;
+            }
         }
-        
-         .boton{
-            font-size: 100%;
-            font-family: 'Roboto Condensed';
-            border-radius: 20px;
-            width: 50%;
-            height: 50%;
-            border-color: $color-primary;
-            color: white;
-            background-color: black;
-            display: flex;
-            justify-content: space-around;
-      }
     }
- }
- #nombres-jugadores{
-    font-family: 'Abel', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    text-align: left;
-    font-size: 25px;
 
-    .franco{
-        width: 70px;
-        height: 70px;
+    #nombres-jugadores {
+        font-family: 'Abel', sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        text-align: left;
+        font-size: 25px;
+
+        .franco {
+            width: 70px;
+            height: 70px;
+        }
+
+        .Maximiliano {
+            @extend .franco
+        }
+
+        .david {
+            @extend .franco
+        }
+
+        .nicolas {
+            @extend .franco
+        }
+
+        .santino {
+            @extend .franco
+        }
+
     }
-    .Maximiliano{
-        @extend .franco
-    }
-    .david{
-        @extend .franco
-    }
-    .nicolas{
-        @extend .franco
-    }
-    .santino{
-        @extend .franco
-    }
-   
-   }
-   .chile{
-    width: 40px;
-    height: 30px;
-    }
-    .uru{
-    @extend .chile
-    }
-    .arg{
-    @extend .chile
-    }
-    .br{
-    width: 40px;
-    height: 30px;
-    }
-   .lista-torneos{
-    font-family: 'Abel', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 30px;
-    .intel{
+
+    .chile {
         width: 40px;
-        height: 40px;
-    }
-    .fire{
-        @extend .intel
-    } 
-  }
-  .ol1{
-    font-family: 'Abel', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    text-align: left;
-    font-size: 50px;
-
-    .coachs{
-        width: 70px;
-        height: 70px;
+        height: 30px;
     }
 
- }
- .despedida-zakk{
-    @extend .torneos-9z
+    .uru {
+        @extend .chile
     }
-    .hellpa{
+
+    .arg {
+        @extend .chile
+    }
+
+    .br {
+        width: 40px;
+        height: 30px;
+    }
+
+    .lista-torneos {
+        font-family: 'Abel', sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 30px;
+
+        .intel {
+            width: 40px;
+            height: 40px;
+        }
+
+        .fire {
+            @extend .intel
+        }
+    }
+
+    .ol1 {
+        font-family: 'Abel', sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        text-align: left;
+        font-size: 50px;
+        list-style: none;
+
+        .coachs {
+            width: 70px;
+            height: 70px;
+        }
+
+        #camisetas {
+            font-family: 'Abel', sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            text-align: left;
+            font-size: 50px;
+            list-style: none;
+
+            .camiseta-imagen{
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+
+    .despedida-zakk {
         @extend .torneos-9z
-     }
-     .torneos-9z{
+    }
+
+    .hellpa {
+        @extend .torneos-9z
+    }
+
+    .torneos-9z {
         width: 100%;
         border: 10px solid $color-primary;
         padding: 0px;
         height: 600px;
     }
-    .ul1{
+
+    .ul1 {
         margin-bottom: 0 !important;
     }
-    .camisetas{
-        width: 150px;
-        height: 90px;
-    }
-    }
+
+
+}
